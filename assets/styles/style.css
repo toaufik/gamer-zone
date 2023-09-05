@@ -28,6 +28,11 @@ body {
 	color: #534c64;
 }
 
+.section-container {
+	width: 1440px;
+	margin: 0 auto;
+}
+
 a {
 	text-decoration: none;
 }
@@ -113,7 +118,7 @@ nav ul li a {
 	background-size: contain;
 }
 
-.section-container {
+.banner-area .section-container {
 	width: 1440px;
 	margin: 0 auto;
 	display: flex;
@@ -139,7 +144,7 @@ nav ul li a {
 	margin-bottom: 20px;
 }
 
-.section-container {
+.banner-area .section-container {
 	width: 1440px;
 	margin: 0 auto;
 	display: flex;
