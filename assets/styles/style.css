@@ -503,9 +503,9 @@ footer .logo h1 {
 		padding-bottom: 120px;
 	}
 
-    .section-img img:first-child {
-        width: 90%;
-    }
+	.section-img img:first-child {
+		width: 90%;
+	}
 
 	.img-absolete {
 		width: 200px;
@@ -570,7 +570,7 @@ footer .logo h1 {
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    body {
+	body {
 		font-size: 18px;
 	}
 
@@ -654,9 +654,9 @@ footer .logo h1 {
 	}
 
 	.card-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
 
 	.card {
 		width: 90%;
@@ -679,9 +679,9 @@ footer .logo h1 {
 		padding-bottom: 120px;
 	}
 
-    .section-img img:first-child {
-        width: 90%;
-    }
+	.section-img img:first-child {
+		width: 90%;
+	}
 
 	.img-absolete {
 		width: 200px;
