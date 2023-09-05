@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --accent-color: #FF42A5;
+}
+.accent-color {
+    color: var(--accent-color);
+}
+/* Global Styles */
+body {
+    font-family: 'Work Sans', sans-serif;
+    font-size:18px;
+    color: #534C64;
+}
+a {
+    text-decoration: none;
+}
