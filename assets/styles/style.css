@@ -198,15 +198,11 @@ nav ul li a {
 	font-weight: 700;
 	margin-bottom: 16px;
 }
-.card-container {
-	display: flex;
-}
 
 .card-container {
 	display: flex;
 	justify-content: space-between;
-	columns-gap: 24px;
-	margin-top: 20px;
+	column-gap: 24px;
 }
 
 .card {
@@ -397,7 +393,6 @@ footer .logo h1 {
 /* Responsive code */
 
 @media (max-width: 768px) {
-    
 	body {
 		font-size: 16px;
 	}
@@ -407,7 +402,7 @@ footer .logo h1 {
 	.banner-area .section-container {
 		width: 100%;
 		flex-direction: column;
-        padding: 0 20px;
+		padding: 0 20px;
 	}
 
 	img {
@@ -453,7 +448,8 @@ footer .logo h1 {
 		text-align: center;
 	}
 
-	.banner-info h3, .section-info h2 {
+	.banner-info h3,
+	.section-info h2 {
 		font-size: 36px;
 	}
 	.banner-info h2 {
@@ -488,8 +484,8 @@ footer .logo h1 {
 
 	.card {
 		width: 90%;
-    text-align: center;
-    margin-bottom: 30px;
+		text-align: center;
+		margin-bottom: 30px;
 	}
 
 	.card-container .img-container {
@@ -500,16 +496,19 @@ footer .logo h1 {
 		width: 100%;
 	}
 
-
 	/* Play Games Area */
 	.section-img {
-		position: static;
+		position: relative;
 		padding-right: 0;
-		padding-bottom: 0;
+		padding-bottom: 120px;
 	}
 
+    .section-img img:first-child {
+        width: 90%;
+    }
+
 	.img-absolete {
-		display: none;
+		width: 200px;
 	}
 
 	.play-secion-info {
@@ -526,20 +525,19 @@ footer .logo h1 {
 		padding: 10px 0;
 		margin: 10px 0;
 		text-align: center;
-        font-size: 12px;
+		font-size: 12px;
 	}
 
-    .game img {
-        width: 30px;
-        margin-right: 5px;
-    }
-
+	.game img {
+		width: 30px;
+		margin-right: 5px;
+	}
 
 	/* Footer Area */
 
-    footer {
-        padding: 40px 0;
-    }
+	footer {
+		padding: 40px 0;
+	}
 	footer .section-container {
 		width: 100%;
 	}
@@ -551,21 +549,22 @@ footer .logo h1 {
 	}
 
 	footer .menu ul,
-	footer .statement ul, .socials {
+	footer .statement ul,
+	.socials {
 		display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 15px;
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 15px;
 	}
 
-    footer .statement ul {
-        grid-template-columns: repeat(2, 1fr);
-    }
+	footer .statement ul {
+		grid-template-columns: repeat(2, 1fr);
+	}
 
 	footer .socials {
 		column-gap: 20px;
 	}
-    .socials a img {
-        width: 24px;
-        height: auto;
-    }
+	.socials a img {
+		width: 24px;
+		height: auto;
+	}
 }
